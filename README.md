@@ -26,3 +26,7 @@ The script:
 <br>
 
 > Wake-on-LAN must be enabled and supported by the target computer's motherboard, network adapter, and operating system configuration.
+
+<br>
+
+![Successful Wake-on-LAN operation](WoL.png)
