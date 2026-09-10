@@ -4,6 +4,7 @@ A simple Windows batch script for remotely powering on a PC using Wake-on-LAN (W
 
 The script checks whether the target PC is already online. If it is offline, it sends a Wake-on-LAN Magic Packet to the specified MAC address and then monitors the PC until it comes online.
 
+
 ### Configuration
 
 Open the `.bat` file with a text editor and configure these three values:
@@ -13,6 +14,7 @@ Open the `.bat` file with a text editor and configure these three values:
     set MAC=AA-BB-CC-00-11-22
 
 Replace them with the target PC's IP address, your network's broadcast address, and the target network adapter's MAC address.
+
 
 ### Usage
 
